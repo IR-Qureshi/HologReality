@@ -1,19 +1,9 @@
 package com.example.hp.hologreality;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-import com.teamviewer.sdk.screensharing.api.TVConfigurationID;
-import com.teamviewer.sdk.screensharing.api.TVCreationError;
-import com.teamviewer.sdk.screensharing.api.TVSession;
-import com.teamviewer.sdk.screensharing.api.TVSessionCallback;
-import com.teamviewer.sdk.screensharing.api.TVSessionCode;
-import com.teamviewer.sdk.screensharing.api.TVSessionConfiguration;
-import com.teamviewer.sdk.screensharing.api.TVSessionCreationCallback;
-import com.teamviewer.sdk.screensharing.api.TVSessionError;
-import com.teamviewer.sdk.screensharing.api.TVSessionFactory;
 
 public class MainActivity extends AppCompatActivity {
 

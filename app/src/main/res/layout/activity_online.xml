@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button"
+        android:onClick="Start"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:text="Connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button2"
+        android:onClick="Connect" />
+
+    <Button
+        android:text="Disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button3"
+        android:onClick="Disconnect"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="abc"
+        android:padding="50dp"
+        android:id="@+id/t1"/>
+    <FrameLayout
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_toRightOf="@id/t1"
+        android:layout_centerInParent="true"
+        android:rotation="90"
+        android:id="@+id/videoFrame1"/>
+    <FrameLayout
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_above="@id/t1"
+        android:layout_centerInParent="true"
+        android:rotation="0"
+
+        android:id="@+id/videoFrame2" />
+    <FrameLayout
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_toLeftOf="@id/t1"
+        android:layout_centerInParent="true"
+        android:rotation="360"
+        android:id="@+id/videoFrame3"/>
+    <FrameLayout
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_below="@id/t1"
+        android:layout_centerInParent="true"
+        android:rotation="180"
+        android:id="@+id/videoFrame4"/>
+</RelativeLayout>
